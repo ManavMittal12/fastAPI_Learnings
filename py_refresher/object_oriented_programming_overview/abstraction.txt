@@ -1,0 +1,24 @@
+What is abstraction ? 
+
+- think of it like a flashlight 
+- flashlight has an on and off switch 
+- when you switch 'on' there's light and 'off' the light disappears 
+- we don't know how the light inside the flashlight turns 'on' and 'off'
+
+that is kind of what abstraction is.
+It's an interface that allows a user to turn on and off things, or do different
+types of functionality without understanding or needing to understand the actual 
+functionality of what happens inside.
+
+abstraction - This means to hide the implementation and only show necessary 
+details to the user.
+
+
+why do we wanna use abstraction? 
+this alows users to not have to understand what the functionality is behind the 
+scenes. 
+
+
+- You can create simple and reusable code
+- Allows for a better use of the DRY principle (Don't repeat yourself)
+- Enables python objects to become more scalable.

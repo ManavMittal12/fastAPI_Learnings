@@ -22,12 +22,12 @@
 <details open>
 <summary><b>Part 1: Setup & Python Essentials</b></summary>
 
-- [ ] **Section 1: Introduction**
-  - [ ] Course overview and prerequisites
-  - [ ] Setting up the learning environment
+- [x] **Section 1: Introduction**
+  - [x] Course overview and prerequisites
+  - [x] Setting up the learning environment
 - [ ] **Section 2: Python Installation & Refresher**
-  - [ ] Python installation and virtual environments (`venv`)
-  - [ ] Python syntax refresher (variables, data types, functions)
+  - [x] Python installation and virtual environments (`venv`)
+  - [x] Python syntax refresher (variables, data types, functions)
   - [ ] OOP concepts in Python
 - [ ] **Section 3: FastAPI Overview**
   - [ ] Why FastAPI? (Speed, Starlette, Pydantic)
