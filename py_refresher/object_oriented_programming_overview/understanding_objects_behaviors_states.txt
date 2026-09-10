@@ -1,0 +1,50 @@
+# what if object oriented programming 
+
+# is a programming paradigm based on the concepts of objects,
+# which can contain data and code
+ 
+# oops has benefits that incluide 
+# scalability 
+# efficiency # reusability 
+
+# what are objects ? 
+# there are objects around us in real life 
+# looking at objects, there are two ways to define them. 
+
+# behavior 
+# state 
+
+# Let's take an example of a dog named milo 
+
+# Behavior - is what object does 
+# there are many behaviors that a normal dog would have 
+# Barking 
+# Eating 
+# Drinking 
+# Sleeping 
+# Walking 
+# Running 
+
+
+# State - what the object has.
+# state of the dog is a bit different 
+
+# Milo's individual pieces of state 
+# 4 legs 
+# 2 ears 
+# goldendoodle 
+# 5 years old 
+# Yellow 
+
+
+
+# There are 4 pillars in Object Oriented Programming 
+
+# they are the walls of oops, the guidance that we need to create succefull objects.
+
+1) Encapsulation
+2) Abstraction
+3) Inheritance
+4) Polymorphism.
+
+
