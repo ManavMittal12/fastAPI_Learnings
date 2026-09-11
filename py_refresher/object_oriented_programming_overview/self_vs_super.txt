@@ -1,0 +1,25 @@
+Super vs Self 
+
+- self is used to refer to the current object that is 
+created or being instantiated, while super is used to 
+refer to the parent class.
+
+
+- self is used when there is a need to differentiate between 
+the instance variable & parameters with the same name, while super
+is used to call parent class methods and/or constructors.
+
+
+
+# usage of super and self.
+class Person:
+    def __init_(self, name, age):
+        self.name = name 
+        self.age = age
+
+
+class Student(Person):
+    def __init__(name=name, age=age)
+        super().__init__(name=name, age=age)
+        self.degree = degree
+

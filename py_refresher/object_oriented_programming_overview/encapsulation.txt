@@ -1,0 +1,32 @@
+Encapsulation
+
+- Encapsulation means buncdling of data.
+
+
+# from our enemy example, after we instantiate these objects,
+we can overwrite those very easily.
+# those are public attributes (conceptually)
+
+
+# what public class attributes mean ? 
+we can change the values of the attributes at the object call 
+
+# changing public attrbutes to be private 
+
+# python has this way called "name mangling"
+# we use double underscore in front of the variable name.
+# so that we can't change the value of the variable directly.
+
+# we need to create two types of functions. a get type of enemy and set type of 
+# enemy.
+
+# these are called getter and setter in Encapsulation.
+
+# Why do we want to use Encapsulation? 
+- helps keep related fields and methods together 
+- makes our code cleaner and easier to read 
+- provides more flexibility to our code 
+- provides more reusability with our code 
+- and it hides values that a coder does not need to be able to 
+- either change or be able to see, and we have it completely encapsulated behind the scenes.
+

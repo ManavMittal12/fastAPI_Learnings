@@ -2,8 +2,6 @@ from enemy import Enemy
 
 
 zombie = Enemy("Zombie")
-print(f"{zombie.type_of_enemy} has {zombie.health_point} health points and can do an attack \
-of {zombie.attack_damage}")
 
 zombie.talk()
 zombie.walk_forward()
