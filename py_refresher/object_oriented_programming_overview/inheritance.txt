@@ -1,0 +1,48 @@
+Inheritance 
+
+what is Inheritance? 
+Inheritance - process of acquiring properties from 
+one class to other classes.
+
+- Creates a hierarchy between classes. 
+
+# we can say "parent class" is Animal
+class Animal:
+    weight: int
+    color: str
+    age: int
+    animal_type: str
+
+
+    def eat(self):
+        print('Animal Eating')
+
+    def sleep(self):
+        print('Animal Sleeping')
+
+
+
+# child class 
+class Dog(Animal):
+    **Inherits all animal attributes**
+
+    can_shed: bool
+    domestic_name: str
+
+    
+    def talk(self):
+        print("Bark!")
+
+
+
+What is method override? 
+Our Animal eat() is pretty generic. what if we want to add our 
+own Dog eat()? 
+
+# we can add a method in the Dog class. 
+that is called overridding 
+
+Method overridding is when a child class as its own method already present in
+in the parent class.
+
+when the child class does not have the same method, it will default to the parent method 
