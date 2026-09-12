@@ -1,0 +1,59 @@
+# Polymorphism
+
+# means to have many forms 
+
+means changing an object at a specific runtime,
+for example we have a animal class,
+we can have other classes that take animal forms
+
+if we crate a list of animal type 
+we can pass a dog object which inherits animal type 
+into it.
+
+
+"""
+class Animal:
+    def talk(self):
+        print("Does not make a sound")
+
+class Dog(Animal):
+    # All Dog Methods
+    def talk(self):
+        print("Bark!")
+
+
+class Bird(Animal):
+    def talk(self):
+        print("Chirp!")
+
+
+class Lion(Animal):
+    def talk(self):
+        print("Roar!")
+
+
+zoo: Animal = []
+
+dog = Animal()
+dog1 = Dog()
+bird = Bird()
+lion = Lion()
+
+zoo.append(dog) # This will work, because dog is 
+# of type Animal. At runtime, it will turn that 
+# dog to an Animal type to fit inside the zoo list of Animal type/
+
+zoo.append(bird)
+zoo.append(dog2)
+zoo.append(lion)
+
+# when we do for animal in zoo, we are saying for each animal,
+python does not know which type of animal is in the zoo but at runtime
+when we say animal.talk(), it's going to print the functions in individual class 
+for animal in zoo:
+    animal.talk()
+
+So, in Polymorphism, it's going to change these objects into the 
+correct objects. So, it's a data type that has many forms and allows us to 
+be able to change object to fit within other things.
+"""
