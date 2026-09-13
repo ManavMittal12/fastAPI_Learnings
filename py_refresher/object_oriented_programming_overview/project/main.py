@@ -1,12 +1,20 @@
-from enemy import Enemy
+from zombie import Zombie
+from ogre import Ogre
 
 
-zombie = Enemy("Zombie")
+zombie = Zombie()
+print(f"The enemy is a {zombie.enemy_name}, It has a total health of {zombie.health_point} and \
+total damage it does is {zombie.attack_damage}")
 
-zombie.talk()
+
 zombie.walk_forward()
-zombie.attack()
+zombie.talk()
+zombie.spread_disease()
 
-stronger_zombie = Enemy("Ultra Zombie", 15, 3)
-print(f"{stronger_zombie.type_of_enemy} has {stronger_zombie.health_point} health points and can do an attack \
-of {stronger_zombie.attack_damage}")
+ogre = Ogre(health_point=20, attack_damage=3)
+print(f"The enemy is a {ogre.enemy_name}, It has total healt of {ogre.health_point} and \
+total damage it does is {ogre.attack_damage}")
+
+ogre.talk()
+
+
