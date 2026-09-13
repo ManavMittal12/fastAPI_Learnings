@@ -1,0 +1,55 @@
+Composition
+
+What is a composition ? 
+
+- A way to create objects made up of other objects 
+
+- In composition, a class contains one or more objects of another class 
+as instance variables.
+
+- Provied layered functionality to the object 
+
+- Knows as a HAS-A relationship 
+
+for example, 
+
+we have three classes 
+
+vehicle() <---- vehicle than HAS-A Engine() class and it might have it's own functionality .
+
+car()
+truck()
+
+
+class Engine:
+    def __init__(self. engineType):
+        self.engineType = engineType
+
+
+    def startEngine(self):
+        print("Engine is running")
+
+    
+    def stopEngine(self):
+        print("Engine is off")
+
+
+
+
+class vehicle:
+    def __init__(self, type, forSale, engine):
+        self.type = type
+        self.forSale = forSale
+        self.engine = engine    # class engine is being used in vehicle, so we can pass 
+        # engine into the vehicle
+
+
+
+engine = Engine("V6")
+vehicle = vehicle("Car", True, engine)
+vehicle.engine.startEngine()    # We'll get engine is running.
+
+
+- Using composition here because the vehicle HAS-A engine.
+- This is different from an interface which is an "IS-A" relationship 
+- A vehicle must have an engine, but an engine does not need to have a vehicle.
