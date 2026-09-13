@@ -25,10 +25,10 @@
 - [x] **Section 1: Introduction**
   - [x] Course overview and prerequisites
   - [x] Setting up the learning environment
-- [ ] **Section 2: Python Installation & Refresher**
+- [x] **Section 2: Python Installation & Refresher**
   - [x] Python installation and virtual environments (`venv`)
   - [x] Python syntax refresher (variables, data types, functions)
-  - [ ] OOP concepts in Python
+  - [x] OOP concepts in Python
 - [ ] **Section 3: FastAPI Overview**
   - [ ] Why FastAPI? (Speed, Starlette, Pydantic)
   - [ ] Automatic API documentation (Swagger UI & ReDoc)
