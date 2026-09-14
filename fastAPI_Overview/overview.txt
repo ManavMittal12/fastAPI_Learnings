@@ -1,0 +1,16 @@
+ FastAPI
+
+ what is fastAPI ? 
+
+ FastAPI is a python web framework for building modern apis 
+ - fast (Performance)
+ - fast (Development)
+
+Key Notes : 
+- Allows APIs with fewer Bugs 
+- Quick and Easy 
+- Robust 
+- Development Standards 
+
+FastAPI is a web-framework for building modern RESTful APIs
+
